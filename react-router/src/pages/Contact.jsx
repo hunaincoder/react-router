@@ -1,5 +1,6 @@
 import { Form } from "react-router-dom";
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const contactData = async ({ request }) => {
   try {
     const res = await request.formData();
